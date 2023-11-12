@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS樣式，用於將圖片置中 */
+    .center-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .center-image img {
+      max-width: 100%; /* 限制圖片的最大寬度，以免過大 */
+      max-height: 100%; /* 限制圖片的最大高度，以免過大 */
+    }
+  </style>
+</head>
+<body>
+  <div class="center-image">
+    <img src="your-image.jpg" alt="圖片描述">
+  </div>
+</body>
+</html>

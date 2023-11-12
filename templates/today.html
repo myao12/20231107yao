@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>	
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="back" type="back/css" href="back.css">
+<title>職涯測驗結果</title>
+<style type="text/css">
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		h1 {color:aqua; font-size:50px;}
+		h2 {color:#0000FF; font-size:30px;}
+		h3 {color:#0000FF; font-size:30px;}
+		h4 {color:#0000FF; font-size:30px;}
+		body {
+      		background-image: url('/static/dog.jpg');
+      		background-size: cover;
+      		background-position: center;
+      		background-repeat: no-repeat;
+      		height: 140vh;
+      		margin: 0;
+      		padding: 0;
+      		font-family: Arial, sans-serif; 
+    }
+    .center-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60vh;
+    }
+
+    .center-image img {
+      max-width: 100%; /* 限制圖片的最大寬度，以免過大 */
+      max-height: 100%; /* 限制圖片的最大高度，以免過大 */
+    }
+    table {
+      width: 100%; /* 表格寬度 100% */
+      height: 30vh; /* 表格高度 100vh，視窗高度 */
+      text-align: center; /* 文字水平置中 */
+      vertical-align: middle; /* 文字垂直置中 */
+    }
+
+    /* 用於表格內的文字樣式 */
+    td {
+      border: 1px solid #ccc; /* 加入邊框，可根據需要調整 */
+      padding: 10px; /* 增加內邊距，可根據需要調整 */
+    }	
+	</style>
+
+</head>
+<body>
+	<table width="40%">
+		<tr>
+			<td>											
+				<img src="/static/ucan4.jpg" width="30%" id="pic">
+				<h1>楊明耀的職涯測驗結果</h1>
+			</td>
+		</tr>
+	</table>
+	<table width="80%" border="1">
+		<tr>
+			<td>				
+				<h2>UCAN 16職涯類型診斷結果</h2><br>
+				<div class="center-image">
+				<img src="/static/ucan3.png" alt="UCAN3">
+			</td>						
+			<td>
+				<h3>職涯性格類型</h3><br>
+				<div class="center-image">
+				<img src="/static/ucan2.png" alt="UCAN2">
+			</td>
+			<td>
+				<h4>UCAN比較</h4><br>
+				<div class="center-image">
+				<img src="/static/ucan1.png" alt="UCAN1">
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

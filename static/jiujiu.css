@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('jiujiu.png'); /* 替換 'your-image.jpg' 為你的圖片路徑 */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- 這裡放你的網頁內容 -->
+</body>
+</html>
